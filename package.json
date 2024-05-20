@@ -25,7 +25,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "exte"https://github.com/El-kaht/El-kaht/",nds": [
+    "extends": [
       "react-app",
       "react-app/jest"
     ]
