@@ -1,21 +1,38 @@
-import Clio5 from "../images/book-car/clio5.png";
-import Micra from "../images/book-car/nissan-micra.png";
-import Stepway from "../images/book-car/stepway.png";
-import C3 from "../images/book-car/c3.png";
-import Peg208 from "../images/book-car/peg208.png";
-import Corsa from "../images/book-car/corsa.png";
-// import Clio4 from "../images/book-car/clio4.png";
-// import Astra from "../images/book-car/astra.png";
-// import Logan from "../images/book-car/logan.png";
-// import Fiesta from "../images/book-car/fiesta.png";
+import CarImg1 from "../images/cars-big/clio5.png";
+import CarImg2 from "../images/cars-big/dacia1.jpg";
+import CarImg6 from "../images/cars-big/2008.jpg";
+import CarImg8 from "../images/cars-big/micra.png";
+import CarImg9 from "../images/cars-big/opel1.jpg";
+import CarImg10 from "../images/cars-big/download.jpeg";
+import CarImg11 from "../images/cars-big/volkswagen-t-roc-fl-r-line-20-tsi-4x4-dsg-my-2024.jpg";
+import CarImg12 from "../images/cars-big/images.jpeg";
+import CarImg13 from "../images/cars-big/ClearWhite_UD_00004.png";
+import CarImg14 from "../images/cars-big/i20.webp";
+import CarImg15 from "../images/cars-big/dacia2019.png";
 
 export const CAR_DATA = [
+  [
+    {
+      id: 7,
+      name: "Volkswagen T-roc 2024",
+      price: "900",
+      img: CarImg11,
+      model: "2024",
+      mark: "volkswagen",
+      year: "2024",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "disel",
+    },
+  ],
+  
   [
     {
       id: 1,
       name: "Clio 5",
       price: "300",
-      img: Clio5,
+      img: CarImg1,
       model: "Clio 5",
       mark: "Renault",
       year: "2023",
@@ -30,7 +47,7 @@ export const CAR_DATA = [
       id: 2,
       name: "Nissan Micra 2023",
       price: "250",
-      img: Micra,
+      img: CarImg8,
       model: "Micra",
       mark: "Nissan",
       year: "2023",
@@ -43,9 +60,9 @@ export const CAR_DATA = [
   [
     {
       id: 3,
-      name: "Dacia Stepway 2019",
+      name: "Dacia Stepway 2024",
       price: "220",
-      img: Stepway,
+      img: CarImg2,
       model: "Stepway",
       mark: "Dacia",
       year: "2019",
@@ -60,7 +77,7 @@ export const CAR_DATA = [
       id: 4,
       name: "Citroen C3 2022",
       price: "300",
-      img: C3,
+      img: CarImg10,
       model: "C3",
       mark: "Citroen",
       year: "2022",
@@ -75,7 +92,7 @@ export const CAR_DATA = [
       id: 5,
       name: "Peugeot 208 2023",
       price: "300",
-      img: Peg208,
+      img: CarImg6,
       model: "208",
       mark: "Peugeot",
       year: "2023",
@@ -90,7 +107,7 @@ export const CAR_DATA = [
       id: 6,
       name: "Opel Corsa 2024",
       price: "250",
-      img: Corsa,
+      img: CarImg9,
       model: "Corsa",
       mark: "Opel",
       year: "2024",
@@ -100,81 +117,67 @@ export const CAR_DATA = [
       fuel: "Disel",
     },
   ],
-  // [
-  //   {
-  //     id: 7,
-  //     name: "Clio 4 2019",
-  //     price: "28",
-  //     img: Clio4,
-  //     model: "Clio 4",
-  //     mark: "Renault",
-  //     year: "2019",
-  //     doors: "4/5",
-  //     air: "Yes",
-  //     transmission: "Manual",
-  //     fuel: "Petrol",
-  //   },
-  // ],
-  // [
-  //   {
-  //     id: 8,
-  //     name: "Opel Astra 2024",
-  //     price: "40",
-  //     img: Astra,
-  //     model: "Astra",
-  //     mark: "Opel",
-  //     year: "2024",
-  //     doors: "4/5",
-  //     air: "Yes",
-  //     transmission: "Manual",
-  //     fuel: "Petrol",
-  //   },
-  // ],
-  // [
-  //   {
-  //     id: 9,
-  //     name: "Dacia Logan 2019",
-  //     price: "22",
-  //     img: Logan,
-  //     model: "Logan",
-  //     mark: "Dacia",
-  //     year: "2019",
-  //     doors: "4/5",
-  //     air: "Yes",
-  //     transmission: "Manual",
-  //     fuel: "Petrol",
-  //   },
-  // ],
-  // [
-  //   {
-  //     id: 10,
-  //     name: "Clio 4 2019",
-  //     price: "28",
-  //     img: Clio4,
-  //     model: "Clio 4",
-  //     mark: "Renault",
-  //     year: "2019",
-  //     doors: "4/5",
-  //     air: "Yes",
-  //     transmission: "Manual",
-  //     fuel: "Petrol",
-  //   },
-  // ],
-  // [
-  //   {
-  //     id: 11,
-  //     name: "Clio 5 2023",
-  //     price: "37",
-  //     img: Clio5,
-  //     model: "Clio 5",
-  //     mark: "Renault",
-  //     year: "2023",
-  //     doors: "4/5",
-  //     air: "Yes",
-  //     transmission: "Manual",
-  //     fuel: "Petrol",
-  //   },
-  // ],
+
+  [
+    {
+      id: 8,
+      name: "Dacia Duster 2024",
+      price: "500",
+      img: CarImg12,
+      model: "duster",
+      mark: "dacia",
+      year: "2024",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "disel",
+    },
+  ],
+  [
+    {
+      id: 9,
+      name: "Kia Picanto 2024",
+      price: "250",
+      img: CarImg13,
+      model: "picanto",
+      mark: "kia",
+      year: "2024",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "disel",
+    },
+  ],
+  [
+    {
+      id: 10,
+      name: "Hyundai i20 2024",
+      price: "300",
+      img: CarImg14,
+      model: "I20",
+      mark: "hyundai",
+      year: "2024",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "disel",
+    },
+  ],
+  [
+    {
+      id: 11,
+      name: "Dacia Stepway 2019",
+      price: "300",
+      img: CarImg15,
+      model: "Clio 5",
+      mark: "Renault",
+      year: "2023",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Petrol",
+    },
+  ],
   // [
   //   {
   //     id: 12,
