@@ -35,7 +35,7 @@ function App() {
       </Routes>
       {/* WhatsApp Lottie Animation */}
       <a
-        href="https://wa.me/21261292787"
+        href="https://wa.me/212661292787"
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
